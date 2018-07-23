@@ -2,7 +2,7 @@
   "name": "react-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://flexdinesh.github.io/",
+  "homepage": "http://flexdinesh.github.io/",
   "scripts": {
     "start": "node scripts/start.js",
     "start:prod": "ENV=prod node scripts/start.js",
@@ -98,5 +98,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "dependencies": {
+    "hexo-deployer-git": "^0.3.1"
   }
 }
