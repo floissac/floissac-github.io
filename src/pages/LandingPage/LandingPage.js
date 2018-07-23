@@ -16,14 +16,14 @@ const LandingPage = (props, context) => {
       <main style={{ color: colorPrimary }}>
         <BrowserNotes />
         <div className="intro-wrapper">
-          <div className="intro-name">Hello World, I'm Will!</div>
+          <div className="intro-name">Hello, I'm Will!</div>
           <div className="tagline">
-            Developer | Tech dude | x5 Fortnite Champion
+            Full Stack Dev | Tech dude | x5 Fortnite Champion
           </div>
           <SocialIcons />
         </div>
       </main>
-      <ScrollToNext pageSelector=".portfolio-page" />
+      <ScrollToNext pageSelector=".about-page" />
     </div>
   );
 };
