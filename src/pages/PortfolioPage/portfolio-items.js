@@ -1,120 +1,60 @@
 import React from 'react';
 
 export default [{
-  name: 'typy',
+  name: 'rApp',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Typy
+        <a target="_blank" rel="noopener noreferrer" href="https://r-app-app.herokuapp.com/">r'App</a>
       </div>
       <div className='portfolio-item__desc'>
-        JavaScript type checking library with a sweeter syntax
+        A rap music sharing web app where users can upload or view songs by various artists.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
+        {/* <i className="fab fa-js"></i> */}
+        {/* <i className="fab fa-npm"></i> */}
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="#">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="#">More</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/floissac/wdi-second-project"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )
 }, {
-  name: 'dev-landing-page',
+  name: 'KO Fightclub',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Dev Landing Page
+
+        <a target="_blank" rel="noopener noreferrer" href="https://ko-fightclub.herokuapp.com/">KO Fightclub</a>
       </div>
       <div className='portfolio-item__desc'>
-        Minimal landing page for developers
+        A basic 2D turn based fighting game where users play against the computer.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-html5"></i>
-        <i className="fab fa-css3"></i>
+        {/* <i className="fab fa-html5"></i> */}
+        {/* <i className="fab fa-css3"></i> */}
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/dev-landing-page">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/floissac/wdi-first-project"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )
 }, {
-  name: 'react-redux-boilerplate',
+  name: 'On That Wave',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        React-Redux Boilerplate
+        <a target="_blank" rel="noopener noreferrer" href="https://on-that-wave.herokuapp.com/">On That Wave</a>
       </div>
       <div className='portfolio-item__desc'>
-        Boilerplate code setup with community best practices
+        A fully responsive app where registered users can search through an entire database of over 1000 cocktails.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-react"></i>
-        <i className="fab fa-js"></i>
+        {/* <i className="fab fa-react"></i> */}
+        {/* <i className="fab fa-js"></i> */}
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/react-redux-boilerplate">More</a>
-      </div>
-    </div>
-  )
-}, {
-  name: 'npm-module-boilerplate',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        NPM Module Boilerplate
-      </div>
-      <div className='portfolio-item__desc'>
-         Boilerplate plate code to create and publish an NPM package
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/publish-your-own-npm-package---5b71">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/npm-module-boilerplate">More</a>
-      </div>
-    </div>
-  )
-}, {
-  name: 'axios-retry-interceptor',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        Axios Retry Interceptor
-      </div>
-      <div className='portfolio-item__desc'>
-        Configurable Axios Interceptor to retry failed http calls.
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="#">More</a>
-      </div>
-    </div>
-  )
-}, {
-  name: 'browser-or-node',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        Browser or Node
-      </div>
-      <div className='portfolio-item__desc'>
-        Javascript library to check the runtime JS env
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="#">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="#">More</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/floissac/WDI-GROUP-PROJECT"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )

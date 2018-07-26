@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SocialIcons from '@components/SocialIcons';
+
 import Nav from '@components/Nav';
-import ScrollToNext from '@components/ScrollToNext';
+// import ScrollToNext from '@components/ScrollToNext';
 import BrowserNotes from '@components/BrowserNotes';
 
 import './style.scss';
@@ -16,14 +16,13 @@ const LandingPage = (props, context) => {
       <main style={{ color: colorPrimary }}>
         <BrowserNotes />
         <div className="intro-wrapper">
-          <div className="intro-name">Hello, I'm Will!</div>
+          <div className="intro-name">Hello World, I'm William Floissac.</div>
           <div className="tagline">
-            Full Stack Dev | Tech dude | x5 Fortnite Champion
+            Web Developer | Tech dude | x5 Fortnite Champion
           </div>
-          <SocialIcons />
         </div>
       </main>
-      <ScrollToNext pageSelector=".about-page" />
+      {/* <ScrollToNext pageSelector=".about-page" /> */}
     </div>
   );
 };
