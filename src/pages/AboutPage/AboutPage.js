@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SocialIcons from '@components/SocialIcons';
+
 // import ScrollToPrevious from '@components/ScrollToPrevious';
 // import ScrollToNext from '@components/ScrollToNext';
 import './style.scss';
@@ -27,10 +28,10 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
 
+            <SocialIcons />
 
 
           </div>
-          <SocialIcons />
         </div>
       </div>
       {/* <ScrollToPrevious pageSelector=".landing-page" /> */}
